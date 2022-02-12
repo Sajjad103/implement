@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph_component"
+    app:startDestination="@id/fragment_main">
+
+    <fragment
+        android:id="@+id/fragment_main"
+        android:name="com.example.android.modern.androidcomlpetearchitecture.navigationcomponent.MainFragment"
+        android:label="MainFragment" >
+        <action
+            android:id="@+id/action_fragment_main_to_fragment1"
+            app:destination="@id/fragment1" />
+        <action
+            android:id="@+id/action_fragment_main_to_fragment2"
+            app:destination="@id/fragment2" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="com.example.android.modern.androidcomlpetearchitecture.navigationcomponent.Fragment1"
+        android:label="Fragment1" >
+        <action
+            android:id="@+id/action_fragment1_to_fragment2"
+            app:destination="@id/fragment2" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.example.android.modern.androidcomlpetearchitecture.navigationcomponent.Fragment2"
+        android:label="Fragment2">
+
+        <argument
+            android:name="arg1"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="arg2"
+            app:argType="string"
+            android:defaultValue="default" />
+    </fragment>
+
+
+</navigation>
