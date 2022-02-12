@@ -8,6 +8,7 @@ class CoroutineActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_coroutine)
+        //added line in coroutine activity class
         //added line in feature branch
     }
 }
