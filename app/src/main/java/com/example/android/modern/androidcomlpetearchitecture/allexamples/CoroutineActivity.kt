@@ -10,5 +10,6 @@ class CoroutineActivity : AppCompatActivity() {
         setContentView(R.layout.activity_coroutine)
         //added line in coroutine activity class
         //added line in feature branch
+        //added line in feature branch 2nd commit
     }
 }
