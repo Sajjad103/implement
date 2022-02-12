@@ -9,5 +9,6 @@ class CoroutineActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_coroutine)
         //added line in coroutine activity class
+        //added line in coroutine activity class feature new branch
     }
 }
