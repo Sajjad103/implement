@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidComlpeteArchitecture">
+        <activity android:name=".allexamples.CoroutineActivity"></activity>
         <activity android:name=".allexamples.RoomDatabaseActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
